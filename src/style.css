@@ -1,0 +1,43 @@
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px;
+    
+     
+}
+
+.nav-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+}
+
+.nav-items > li {
+    padding: 10px;
+    
+}
+
+
+ .nav-img{
+    width: 70px;
+}
+
+li:hover{
+    color: blue;
+}
+
+#footer{
+    bottom: 0;
+    position:  absolute;
+    height: 20px;
+    background: #f0f0f0;
+
+    
+}
+
+.body > h1{
+    text-decoration: underline;
+}
